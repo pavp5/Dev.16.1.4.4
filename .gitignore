@@ -11,11 +11,11 @@ x86/
 [Oo]ut/
 
 # Visual Studio user files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.rsuser
+# *.suo
+# *.user
+# *.userosscache
+# *.sln.docstates
+# *.rsuser
 
 # Visual Studio cache directory
 .vs/

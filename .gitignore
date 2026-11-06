@@ -1,0 +1,39 @@
+## Visual Studio / .NET / VB.NET Ignore file
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Bb]ld/
+[Oo]ut/
+
+# Visual Studio user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Visual Studio cache directory
+.vs/
+
+# NuGet packages
+[Pp]ackages/
+*.nupkg
+*.snupkg
+
+# Unit test results
+*.trx
+TestResults/
+
+# Publish output
+[Pp]ublish/
+*.[Pp]ubxml
+
+# Diagnostics / Logs
+*.log
+*.cache
+*.tmp

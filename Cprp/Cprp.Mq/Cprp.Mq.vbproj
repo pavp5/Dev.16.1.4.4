@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B8196C9-60E9-4144-A372-1D49E8CCBD74}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cprp.Mq</RootNamespace>
+    <AssemblyName>Cprp.Mq</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cprp.Mq.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cprp.Mq.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="amqmdmsg, Version=8.0.0.7, Culture=neutral, PublicKeyToken=ab28406a0e0bb022, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\amqmdmsg.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="amqmdnet, Version=8.0.0.7, Culture=neutral, PublicKeyToken=dd3cb1c9aae9ec97, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\amqmdnet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="amqmdnm, Version=8.0.0.7, Culture=neutral, PublicKeyToken=ba95863d803c00a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\amqmdnm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="amqmdnsp, Version=8.0.0.7, Culture=neutral, PublicKeyToken=4ec3909022c7abcc, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\amqmdnsp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="amqmdxcs, Version=8.0.0.7, Culture=neutral, PublicKeyToken=7a58d55a51981a15, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\amqmdxcs.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Admin, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Admin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Admin.Objects, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Admin.Objects.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Client.Impl, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Client.Impl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Client.WMQ, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Client.WMQ.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Comms, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Comms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Comms.RMM, Version=1.0.3035.28838, Culture=neutral, PublicKeyToken=81279b988bfae9f8, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Comms.RMM.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Comms.SSL, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Comms.SSL.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Core, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Formats.JMF, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Formats.JMF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Formats.MFP, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Formats.MFP.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Impl, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Impl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Match, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Match.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.NLS, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.NLS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Provider, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Provider.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.SIB, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.SIB.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.Util, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.Util.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IBM.XMS.WMQI, Version=8.0.0.7, Culture=neutral, PublicKeyToken=d2666ab12fca862b, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSphereMqClient.8.0.0.7\lib\net20\IBM.XMS.WMQI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QueueManager.vb" />
+    <Compile Include="ResultDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XmlMessage.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cprp.DxData.Work\Cprp.DxData.Work.vbproj">
+      <Project>{0e574032-d42f-47da-b86a-c20aafac6fce}</Project>
+      <Name>Cprp.DxData.Work</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData\Cprp.DxData.vbproj">
+      <Project>{dac2c5ab-0904-46b0-ab98-ce33148a2023}</Project>
+      <Name>Cprp.DxData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{857F1AC4-318E-4A57-AEA7-0DCEC968FC94}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Cprp.DxData.Work.Alteration</RootNamespace>
+    <AssemblyName>Cprp.DxData.Work.Alteration</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cprp.DxData.Work.Alteration.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cprp.DxData.Work.Alteration.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Cprp.DxData.Resource, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Cprp.DxData.Resource\bin\Release\Cprp.DxData.Resource.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxDictionary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Cprp.DxDictionary\bin\Release\Cprp.DxDictionary.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.Signature, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Cprp.Signature\bin\Release\Cprp.Signature.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="{ Data }\ChangeSourceDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\ChangeSummaryDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\NewWorkDataRow.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\WorkConnectionRow.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_document.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_plane.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_project.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkBackForm.designer.vb">
+      <DependentUpon>WorkBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_content.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\ChildUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\ContentDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\ContentEnum.vb" />
+    <Compile Include="{ UserControl }\ErrorDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkPlaneAcceptForm.Designer.vb">
+      <DependentUpon>WorkPlaneAcceptForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkPlaneAcceptForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 010 - Content }\ContentChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 020 - Plane }\PlaneChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 140 - Project }\ProjectChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestBackForm.designer.vb">
+      <DependentUpon>RequestBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestTermForm.designer.vb">
+      <DependentUpon>RequestTermForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestTermForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkExpertForm.designer.vb">
+      <DependentUpon>WorkExpertForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkExpertForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ _UserControl }\WorkUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\WorkBackForm.resx">
+      <DependentUpon>WorkBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\WorkPlaneAcceptForm.resx">
+      <DependentUpon>WorkPlaneAcceptForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 010 - Content }\ContentChildControl.resx">
+      <DependentUpon>ContentChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 020 - Plane }\PlaneChildControl.resx">
+      <DependentUpon>PlaneChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 140 - Project }\ProjectChildControl.resx">
+      <DependentUpon>ProjectChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 150 - Request }\RequestBackForm.resx">
+      <DependentUpon>RequestBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 150 - Request }\RequestChildControl.resx">
+      <DependentUpon>RequestChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 150 - Request }\RequestTermForm.resx">
+      <DependentUpon>RequestTermForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\WorkExpertForm.resx">
+      <DependentUpon>WorkExpertForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ _UserControl }\WorkUserControl.resx">
+      <DependentUpon>WorkUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cprp.DxCommon\Cprp.DxCommon.vbproj">
+      <Project>{ae80a35a-057f-4487-9371-2d99afa6be91}</Project>
+      <Name>Cprp.DxCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Calc\Cprp.DxData.Calc.vbproj">
+      <Project>{5dc814d5-a45d-495c-9d14-cc12a370e027}</Project>
+      <Name>Cprp.DxData.Calc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Handbook\Cprp.DxData.Handbook.vbproj">
+      <Project>{da743e82-9bc1-406e-87c9-3b8c997095da}</Project>
+      <Name>Cprp.DxData.Handbook</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.User\Cprp.DxData.User.vbproj">
+      <Project>{2d123121-4923-4df9-8fa3-834ecc8649b8}</Project>
+      <Name>Cprp.DxData.User</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work.Consultation\Cprp.DxData.Work.Consultation.vbproj">
+      <Project>{3f3bdb5b-a653-43ad-875c-da7eb263770b}</Project>
+      <Name>Cprp.DxData.Work.Consultation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work.Customs\Cprp.DxData.Work.Customs.vbproj">
+      <Project>{0554d6a9-3de6-4ca1-8f86-da5d581b551d}</Project>
+      <Name>Cprp.DxData.Work.Customs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work.Excont\Cprp.DxData.Work.Excont.vbproj">
+      <Project>{d9b9a592-d968-4595-970f-6d1bd721d32c}</Project>
+      <Name>Cprp.DxData.Work.Excont</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work.Liconfirm\Cprp.DxData.Work.Liconfirm.vbproj">
+      <Project>{ec2eb7bd-7a83-481c-b387-6884e568f7dc}</Project>
+      <Name>Cprp.DxData.Work.Liconfirm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work.Military\Cprp.DxData.Work.Military.vbproj">
+      <Project>{1ed5a668-b7eb-434b-a01d-b668bacaffc8}</Project>
+      <Name>Cprp.DxData.Work.Military</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work.Tnved\Cprp.DxData.Work.Tnved.vbproj">
+      <Project>{c5be4f55-4e4c-4514-8bdf-27c302241a35}</Project>
+      <Name>Cprp.DxData.Work.Tnved</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work\Cprp.DxData.Work.vbproj">
+      <Project>{0e574032-d42f-47da-b86a-c20aafac6fce}</Project>
+      <Name>Cprp.DxData.Work</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData\Cprp.DxData.vbproj">
+      <Project>{dac2c5ab-0904-46b0-ab98-ce33148a2023}</Project>
+      <Name>Cprp.DxData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

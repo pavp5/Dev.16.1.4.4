@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F3BDB5B-A653-43AD-875C-DA7EB263770B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cprp.DxData.Work.Consultation</RootNamespace>
+    <AssemblyName>Cprp.DxData.Work.Consultation</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cprp.DxData.Work.Consultation.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cprp.DxData.Work.Consultation.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="{ UserControl }\ChildUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\ContentDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\ContentEnum.vb" />
+    <Compile Include="{ UserControl }\ErrorDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\PlaneBackForm.designer.vb">
+      <DependentUpon>PlaneBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\PlaneBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkAcceptForm.designer.vb">
+      <DependentUpon>WorkAcceptForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkAcceptForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkBackForm.designer.vb">
+      <DependentUpon>WorkBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\WorkBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 010 - Content }\ContentChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 020 - Plane }\PlaneChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 100 - Query }\QueryDataChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 100 - Query }\QueryListChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 130 - ExtraDoc }\ExtraDocChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ Data }\QueryDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\WorkConnectionRow.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_archive.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_content.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_document.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_project.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\{ WorkConnectionRow }\_rtf.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 140 - Project }\ProjectChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestBackForm.designer.vb">
+      <DependentUpon>RequestBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestChildControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestTermForm.designer.vb">
+      <DependentUpon>RequestTermForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="{ UserControl }\{ 150 - Request }\RequestTermForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="{ UserControl }\{ _UserControl }\WorkUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\PlaneBackForm.resx">
+      <DependentUpon>PlaneBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\WorkAcceptForm.resx">
+      <DependentUpon>WorkAcceptForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\WorkBackForm.resx">
+      <DependentUpon>WorkBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 010 - Content }\ContentChildControl.resx">
+      <DependentUpon>ContentChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 020 - Plane }\PlaneChildControl.resx">
+      <DependentUpon>PlaneChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 100 - Query }\QueryDataChildControl.resx">
+      <DependentUpon>QueryDataChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 100 - Query }\QueryListChildControl.resx">
+      <DependentUpon>QueryListChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 130 - ExtraDoc }\ExtraDocChildControl.resx">
+      <DependentUpon>ExtraDocChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 140 - Project }\ProjectChildControl.resx">
+      <DependentUpon>ProjectChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 150 - Request }\RequestBackForm.resx">
+      <DependentUpon>RequestBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 150 - Request }\RequestChildControl.resx">
+      <DependentUpon>RequestChildControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ 150 - Request }\RequestTermForm.resx">
+      <DependentUpon>RequestTermForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="{ UserControl }\{ _UserControl }\WorkUserControl.resx">
+      <DependentUpon>WorkUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cprp.DxCommon\Cprp.DxCommon.vbproj">
+      <Project>{ae80a35a-057f-4487-9371-2d99afa6be91}</Project>
+      <Name>Cprp.DxCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Calc\Cprp.DxData.Calc.vbproj">
+      <Project>{5dc814d5-a45d-495c-9d14-cc12a370e027}</Project>
+      <Name>Cprp.DxData.Calc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Handbook\Cprp.DxData.Handbook.vbproj">
+      <Project>{da743e82-9bc1-406e-87c9-3b8c997095da}</Project>
+      <Name>Cprp.DxData.Handbook</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Resource\Cprp.DxData.Resource.vbproj">
+      <Project>{a3eff3b2-dcb4-44c2-8d1e-fcdc095ad4d2}</Project>
+      <Name>Cprp.DxData.Resource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.User\Cprp.DxData.User.vbproj">
+      <Project>{2d123121-4923-4df9-8fa3-834ecc8649b8}</Project>
+      <Name>Cprp.DxData.User</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData.Work\Cprp.DxData.Work.vbproj">
+      <Project>{0e574032-d42f-47da-b86a-c20aafac6fce}</Project>
+      <Name>Cprp.DxData.Work</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxData\Cprp.DxData.vbproj">
+      <Project>{dac2c5ab-0904-46b0-ab98-ce33148a2023}</Project>
+      <Name>Cprp.DxData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.DxDictionary\Cprp.DxDictionary.vbproj">
+      <Project>{65779b93-2cb3-446e-a4a9-32eb61f58164}</Project>
+      <Name>Cprp.DxDictionary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cprp.Signature\Cprp.Signature.vbproj">
+      <Project>{d4a82d79-9631-416b-b876-09c94e721348}</Project>
+      <Name>Cprp.Signature</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+<!DOCTYPE HTML>
+<html>
+<title>Справка по работе</title>
+<body>
+<p style='font-family: Calibri,Arial; font-size: 13pt;'>[нет данных]</p>
+</body>
+</html>

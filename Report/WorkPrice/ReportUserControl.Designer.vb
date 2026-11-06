@@ -1,0 +1,646 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class ReportUserControl
+    Inherits DevExpress.XtraEditors.XtraUserControl
+
+    'UserControl overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim GridFormatRule1 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue1 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule2 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue2 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule3 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue3 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule4 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue4 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule5 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue5 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule6 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue6 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule7 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue7 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim GridFormatRule8 As DevExpress.XtraGrid.GridFormatRule = New DevExpress.XtraGrid.GridFormatRule()
+        Dim FormatConditionRuleValue8 As DevExpress.XtraEditors.FormatConditionRuleValue = New DevExpress.XtraEditors.FormatConditionRuleValue()
+        Dim SerializableAppearanceObject5 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SuperToolTip14 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem14 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem14 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip15 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem15 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem15 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReportUserControl))
+        Dim SuperToolTip12 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem12 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem12 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip16 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem16 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem16 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Me.LayoutControl1 = New DevExpress.XtraLayout.LayoutControl()
+        Me.StandaloneBarDockControl1 = New DevExpress.XtraBars.StandaloneBarDockControl()
+        Me.ReportGridControl = New DevExpress.XtraGrid.GridControl()
+        Me.ReportGridView = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.OrderNumGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.OrderDateGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ClientCaptionGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.IdGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ObjectCountGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GoodCountGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.ObjectPriceGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GoodPriceGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.PriceDifGridColumn = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.WorkCountRepositoryItemProgressBar = New DevExpress.XtraEditors.Repository.RepositoryItemProgressBar()
+        Me.RootLayoutControlGroup = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.BarManager1 = New DevExpress.XtraBars.BarManager(Me.components)
+        Me.Bar1 = New DevExpress.XtraBars.Bar()
+        Me.FindBarEditItem = New DevExpress.XtraBars.BarEditItem()
+        Me.FindRepositoryItemButtonEdit = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.DateBeginBarEditItem = New DevExpress.XtraBars.BarEditItem()
+        Me.DateBeginRepositoryItemDateEdit = New DevExpress.XtraEditors.Repository.RepositoryItemDateEdit()
+        Me.DateEndBarEditItem = New DevExpress.XtraBars.BarEditItem()
+        Me.DateEndRepositoryItemDateEdit = New DevExpress.XtraEditors.Repository.RepositoryItemDateEdit()
+        Me.ClientOrderBarEditItem = New DevExpress.XtraBars.BarEditItem()
+        Me.ClientOrderRepositoryItemTextEdit = New DevExpress.XtraEditors.Repository.RepositoryItemTextEdit()
+        Me.ReportBarButtonItem = New DevExpress.XtraBars.BarButtonItem()
+        Me.ExportBarButtonItem = New DevExpress.XtraBars.BarButtonItem()
+        Me.barDockControlTop = New DevExpress.XtraBars.BarDockControl()
+        Me.barDockControlBottom = New DevExpress.XtraBars.BarDockControl()
+        Me.barDockControlLeft = New DevExpress.XtraBars.BarDockControl()
+        Me.barDockControlRight = New DevExpress.XtraBars.BarDockControl()
+        Me.FilterBarSubItem = New DevExpress.XtraBars.BarSubItem()
+        Me.AllRowBarCheckItem = New DevExpress.XtraBars.BarCheckItem()
+        Me.NotAgreeBarCheckItem = New DevExpress.XtraBars.BarCheckItem()
+        Me.WithAgreeBarCheckItem = New DevExpress.XtraBars.BarCheckItem()
+        CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LayoutControl1.SuspendLayout()
+        CType(Me.ReportGridControl, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ReportGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.WorkCountRepositoryItemProgressBar, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RootLayoutControlGroup, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FindRepositoryItemButtonEdit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateBeginRepositoryItemDateEdit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateBeginRepositoryItemDateEdit.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEndRepositoryItemDateEdit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEndRepositoryItemDateEdit.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ClientOrderRepositoryItemTextEdit, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'LayoutControl1
+        '
+        Me.LayoutControl1.AllowCustomization = False
+        Me.LayoutControl1.Appearance.Control.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.LayoutControl1.Appearance.Control.Options.UseFont = True
+        Me.LayoutControl1.Appearance.ControlDropDown.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.LayoutControl1.Appearance.ControlDropDown.Options.UseFont = True
+        Me.LayoutControl1.Controls.Add(Me.StandaloneBarDockControl1)
+        Me.LayoutControl1.Controls.Add(Me.ReportGridControl)
+        Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.LayoutControl1.Name = "LayoutControl1"
+        Me.LayoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(620, 395, 276, 386)
+        Me.LayoutControl1.OptionsFocus.AllowFocusGroups = False
+        Me.LayoutControl1.OptionsFocus.AllowFocusTabbedGroups = False
+        Me.LayoutControl1.Root = Me.RootLayoutControlGroup
+        Me.LayoutControl1.Size = New System.Drawing.Size(1300, 500)
+        Me.LayoutControl1.TabIndex = 4
+        Me.LayoutControl1.Text = "LayoutControl1"
+        '
+        'StandaloneBarDockControl1
+        '
+        Me.StandaloneBarDockControl1.CausesValidation = False
+        Me.StandaloneBarDockControl1.Location = New System.Drawing.Point(16, 16)
+        Me.StandaloneBarDockControl1.Name = "StandaloneBarDockControl1"
+        Me.StandaloneBarDockControl1.Size = New System.Drawing.Size(1268, 50)
+        Me.StandaloneBarDockControl1.Text = "StandaloneBarDockControl1"
+        '
+        'ReportGridControl
+        '
+        Me.ReportGridControl.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.ReportGridControl.Location = New System.Drawing.Point(16, 72)
+        Me.ReportGridControl.MainView = Me.ReportGridView
+        Me.ReportGridControl.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.ReportGridControl.Name = "ReportGridControl"
+        Me.ReportGridControl.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.WorkCountRepositoryItemProgressBar})
+        Me.ReportGridControl.Size = New System.Drawing.Size(1268, 412)
+        Me.ReportGridControl.TabIndex = 4
+        Me.ReportGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.ReportGridView})
+        '
+        'ReportGridView
+        '
+        Me.ReportGridView.Appearance.FooterPanel.Font = New System.Drawing.Font("Calibri", 12.90566!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.ReportGridView.Appearance.FooterPanel.Options.UseFont = True
+        Me.ReportGridView.Appearance.GroupRow.Font = New System.Drawing.Font("Arial", 10.18868!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.ReportGridView.Appearance.GroupRow.Options.UseFont = True
+        Me.ReportGridView.Appearance.HeaderPanel.Font = New System.Drawing.Font("Arial", 10.18868!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.ReportGridView.Appearance.HeaderPanel.Options.UseFont = True
+        Me.ReportGridView.Appearance.HeaderPanel.Options.UseTextOptions = True
+        Me.ReportGridView.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.ReportGridView.Appearance.Row.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.ReportGridView.Appearance.Row.Options.UseFont = True
+        Me.ReportGridView.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.OrderNumGridColumn, Me.OrderDateGridColumn, Me.ClientCaptionGridColumn, Me.IdGridColumn, Me.ObjectCountGridColumn, Me.GoodCountGridColumn, Me.ObjectPriceGridColumn, Me.GoodPriceGridColumn, Me.PriceDifGridColumn})
+        Me.ReportGridView.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus
+        GridFormatRule1.ApplyToRow = True
+        GridFormatRule1.Name = "Format0"
+        FormatConditionRuleValue1.Appearance.BackColor = System.Drawing.Color.OldLace
+        FormatConditionRuleValue1.Appearance.Options.UseBackColor = True
+        FormatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue1.Value1 = False
+        GridFormatRule1.Rule = FormatConditionRuleValue1
+        GridFormatRule2.Name = "Format1"
+        FormatConditionRuleValue2.Appearance.ForeColor = System.Drawing.Color.Red
+        FormatConditionRuleValue2.Appearance.Options.UseForeColor = True
+        FormatConditionRuleValue2.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue2.Value1 = True
+        GridFormatRule2.Rule = FormatConditionRuleValue2
+        GridFormatRule3.ApplyToRow = True
+        GridFormatRule3.Name = "Format2"
+        FormatConditionRuleValue3.Appearance.ForeColor = System.Drawing.Color.Red
+        FormatConditionRuleValue3.Appearance.Options.UseForeColor = True
+        FormatConditionRuleValue3.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue3.Value1 = True
+        GridFormatRule3.Rule = FormatConditionRuleValue3
+        GridFormatRule4.ApplyToRow = True
+        GridFormatRule4.Name = "Format3"
+        FormatConditionRuleValue4.Appearance.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        FormatConditionRuleValue4.Appearance.Options.UseFont = True
+        FormatConditionRuleValue4.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue4.Value1 = True
+        GridFormatRule4.Rule = FormatConditionRuleValue4
+        GridFormatRule5.ApplyToRow = True
+        GridFormatRule5.Name = "Format4"
+        FormatConditionRuleValue5.Appearance.Font = New System.Drawing.Font("Calibri", 12.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        FormatConditionRuleValue5.Appearance.Options.UseFont = True
+        FormatConditionRuleValue5.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue5.Value1 = False
+        GridFormatRule5.Rule = FormatConditionRuleValue5
+        GridFormatRule6.ApplyToRow = True
+        GridFormatRule6.Name = "Format5"
+        FormatConditionRuleValue6.Appearance.Font = New System.Drawing.Font("Calibri", 12.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        FormatConditionRuleValue6.Appearance.Options.UseFont = True
+        FormatConditionRuleValue6.Condition = DevExpress.XtraEditors.FormatCondition.Expression
+        FormatConditionRuleValue6.Expression = "[isPrice] = False And [isAgree] = True"
+        GridFormatRule6.Rule = FormatConditionRuleValue6
+        GridFormatRule7.Name = "Format6"
+        FormatConditionRuleValue7.Appearance.BackColor = System.Drawing.Color.Green
+        FormatConditionRuleValue7.Appearance.ForeColor = System.Drawing.Color.White
+        FormatConditionRuleValue7.Appearance.Options.UseBackColor = True
+        FormatConditionRuleValue7.Appearance.Options.UseForeColor = True
+        FormatConditionRuleValue7.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue7.Value1 = "Заявка"
+        GridFormatRule7.Rule = FormatConditionRuleValue7
+        GridFormatRule8.Name = "Format7"
+        FormatConditionRuleValue8.Appearance.BackColor = System.Drawing.Color.Firebrick
+        FormatConditionRuleValue8.Appearance.ForeColor = System.Drawing.Color.White
+        FormatConditionRuleValue8.Appearance.Options.UseBackColor = True
+        FormatConditionRuleValue8.Appearance.Options.UseForeColor = True
+        FormatConditionRuleValue8.Condition = DevExpress.XtraEditors.FormatCondition.Equal
+        FormatConditionRuleValue8.Value1 = "Измен."
+        GridFormatRule8.Rule = FormatConditionRuleValue8
+        Me.ReportGridView.FormatRules.Add(GridFormatRule1)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule2)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule3)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule4)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule5)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule6)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule7)
+        Me.ReportGridView.FormatRules.Add(GridFormatRule8)
+        Me.ReportGridView.GridControl = Me.ReportGridControl
+        Me.ReportGridView.GroupFormat = "{1} {2}"
+        Me.ReportGridView.GroupSummary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Count, "", Nothing, "(всего: {0}"), New DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "price", Nothing, "стоимость: {0:c2})")})
+        Me.ReportGridView.Name = "ReportGridView"
+        Me.ReportGridView.OptionsBehavior.Editable = False
+        Me.ReportGridView.OptionsFind.AllowFindPanel = False
+        Me.ReportGridView.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.ReportGridView.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.[True]
+        Me.ReportGridView.OptionsView.ShowFooter = True
+        Me.ReportGridView.OptionsView.ShowGroupPanel = False
+        Me.ReportGridView.RowHeight = 30
+        '
+        'OrderNumGridColumn
+        '
+        Me.OrderNumGridColumn.Caption = "Номер заказа"
+        Me.OrderNumGridColumn.FieldName = "orderNum"
+        Me.OrderNumGridColumn.Name = "OrderNumGridColumn"
+        Me.OrderNumGridColumn.OptionsColumn.FixedWidth = True
+        Me.OrderNumGridColumn.Visible = True
+        Me.OrderNumGridColumn.VisibleIndex = 0
+        Me.OrderNumGridColumn.Width = 140
+        '
+        'OrderDateGridColumn
+        '
+        Me.OrderDateGridColumn.Caption = "Дата заказа"
+        Me.OrderDateGridColumn.FieldName = "orderDate"
+        Me.OrderDateGridColumn.Name = "OrderDateGridColumn"
+        Me.OrderDateGridColumn.OptionsColumn.FixedWidth = True
+        Me.OrderDateGridColumn.Visible = True
+        Me.OrderDateGridColumn.VisibleIndex = 1
+        Me.OrderDateGridColumn.Width = 120
+        '
+        'ClientCaptionGridColumn
+        '
+        Me.ClientCaptionGridColumn.Caption = "Заказчик"
+        Me.ClientCaptionGridColumn.FieldName = "clientCaption"
+        Me.ClientCaptionGridColumn.Name = "ClientCaptionGridColumn"
+        Me.ClientCaptionGridColumn.Visible = True
+        Me.ClientCaptionGridColumn.VisibleIndex = 2
+        Me.ClientCaptionGridColumn.Width = 203
+        '
+        'IdGridColumn
+        '
+        Me.IdGridColumn.Caption = "Работа"
+        Me.IdGridColumn.FieldName = "id"
+        Me.IdGridColumn.Name = "IdGridColumn"
+        Me.IdGridColumn.OptionsColumn.FixedWidth = True
+        Me.IdGridColumn.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Count, "id", "{0}")})
+        Me.IdGridColumn.Visible = True
+        Me.IdGridColumn.VisibleIndex = 3
+        Me.IdGridColumn.Width = 100
+        '
+        'ObjectCountGridColumn
+        '
+        Me.ObjectCountGridColumn.Caption = "Кол-во объектов"
+        Me.ObjectCountGridColumn.FieldName = "objectCount"
+        Me.ObjectCountGridColumn.Name = "ObjectCountGridColumn"
+        Me.ObjectCountGridColumn.OptionsColumn.FixedWidth = True
+        Me.ObjectCountGridColumn.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "objectCount", "{0:0.##}")})
+        Me.ObjectCountGridColumn.Visible = True
+        Me.ObjectCountGridColumn.VisibleIndex = 4
+        Me.ObjectCountGridColumn.Width = 120
+        '
+        'GoodCountGridColumn
+        '
+        Me.GoodCountGridColumn.Caption = "Кол-во товаров"
+        Me.GoodCountGridColumn.FieldName = "goodCount"
+        Me.GoodCountGridColumn.Name = "GoodCountGridColumn"
+        Me.GoodCountGridColumn.OptionsColumn.FixedWidth = True
+        Me.GoodCountGridColumn.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "goodCount", "{0:0.##}")})
+        Me.GoodCountGridColumn.Visible = True
+        Me.GoodCountGridColumn.VisibleIndex = 5
+        Me.GoodCountGridColumn.Width = 120
+        '
+        'ObjectPriceGridColumn
+        '
+        Me.ObjectPriceGridColumn.Caption = "Стоимость по объектам"
+        Me.ObjectPriceGridColumn.FieldName = "objectPrice"
+        Me.ObjectPriceGridColumn.Name = "ObjectPriceGridColumn"
+        Me.ObjectPriceGridColumn.OptionsColumn.FixedWidth = True
+        Me.ObjectPriceGridColumn.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "objectPrice", "{0:c2}")})
+        Me.ObjectPriceGridColumn.Visible = True
+        Me.ObjectPriceGridColumn.VisibleIndex = 6
+        Me.ObjectPriceGridColumn.Width = 150
+        '
+        'GoodPriceGridColumn
+        '
+        Me.GoodPriceGridColumn.Caption = "Стоимость по товарам"
+        Me.GoodPriceGridColumn.FieldName = "goodPrice"
+        Me.GoodPriceGridColumn.Name = "GoodPriceGridColumn"
+        Me.GoodPriceGridColumn.OptionsColumn.FixedWidth = True
+        Me.GoodPriceGridColumn.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "goodPrice", "{0:c2}")})
+        Me.GoodPriceGridColumn.Visible = True
+        Me.GoodPriceGridColumn.VisibleIndex = 7
+        Me.GoodPriceGridColumn.Width = 150
+        '
+        'PriceDifGridColumn
+        '
+        Me.PriceDifGridColumn.Caption = "Разница стоимостей"
+        Me.PriceDifGridColumn.FieldName = "priceDif"
+        Me.PriceDifGridColumn.Name = "PriceDifGridColumn"
+        Me.PriceDifGridColumn.OptionsColumn.FixedWidth = True
+        Me.PriceDifGridColumn.Summary.AddRange(New DevExpress.XtraGrid.GridSummaryItem() {New DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "priceDif", "{0:c2}")})
+        Me.PriceDifGridColumn.Visible = True
+        Me.PriceDifGridColumn.VisibleIndex = 8
+        Me.PriceDifGridColumn.Width = 150
+        '
+        'WorkCountRepositoryItemProgressBar
+        '
+        Me.WorkCountRepositoryItemProgressBar.Name = "WorkCountRepositoryItemProgressBar"
+        Me.WorkCountRepositoryItemProgressBar.PercentView = False
+        Me.WorkCountRepositoryItemProgressBar.ShowTitle = True
+        '
+        'RootLayoutControlGroup
+        '
+        Me.RootLayoutControlGroup.AppearanceGroup.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.RootLayoutControlGroup.AppearanceGroup.Options.UseFont = True
+        Me.RootLayoutControlGroup.AppearanceItemCaption.Font = New System.Drawing.Font("Arial", 9.75!)
+        Me.RootLayoutControlGroup.AppearanceItemCaption.Options.UseFont = True
+        Me.RootLayoutControlGroup.AppearanceTabPage.Header.Font = New System.Drawing.Font("Arial", 9.75!)
+        Me.RootLayoutControlGroup.AppearanceTabPage.Header.Options.UseFont = True
+        Me.RootLayoutControlGroup.AppearanceTabPage.HeaderActive.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.RootLayoutControlGroup.AppearanceTabPage.HeaderActive.Options.UseFont = True
+        Me.RootLayoutControlGroup.AppearanceTabPage.HeaderDisabled.Font = New System.Drawing.Font("Arial", 9.75!)
+        Me.RootLayoutControlGroup.AppearanceTabPage.HeaderDisabled.Options.UseFont = True
+        Me.RootLayoutControlGroup.AppearanceTabPage.HeaderHotTracked.Font = New System.Drawing.Font("Arial", 9.75!)
+        Me.RootLayoutControlGroup.AppearanceTabPage.HeaderHotTracked.Options.UseFont = True
+        Me.RootLayoutControlGroup.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
+        Me.RootLayoutControlGroup.GroupBordersVisible = False
+        Me.RootLayoutControlGroup.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem3})
+        Me.RootLayoutControlGroup.Location = New System.Drawing.Point(0, 0)
+        Me.RootLayoutControlGroup.Name = "Root"
+        Me.RootLayoutControlGroup.Size = New System.Drawing.Size(1300, 500)
+        Me.RootLayoutControlGroup.TextVisible = False
+        '
+        'LayoutControlItem1
+        '
+        Me.LayoutControlItem1.Control = Me.ReportGridControl
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 56)
+        Me.LayoutControlItem1.Name = "LayoutControlItem1"
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(1274, 418)
+        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem1.TextVisible = False
+        '
+        'LayoutControlItem3
+        '
+        Me.LayoutControlItem3.Control = Me.StandaloneBarDockControl1
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem3.Name = "LayoutControlItem3"
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(1274, 56)
+        Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem3.TextVisible = False
+        '
+        'BarManager1
+        '
+        Me.BarManager1.AllowQuickCustomization = False
+        Me.BarManager1.AllowShowToolbarsPopup = False
+        Me.BarManager1.Bars.AddRange(New DevExpress.XtraBars.Bar() {Me.Bar1})
+        Me.BarManager1.DockControls.Add(Me.barDockControlTop)
+        Me.BarManager1.DockControls.Add(Me.barDockControlBottom)
+        Me.BarManager1.DockControls.Add(Me.barDockControlLeft)
+        Me.BarManager1.DockControls.Add(Me.barDockControlRight)
+        Me.BarManager1.DockControls.Add(Me.StandaloneBarDockControl1)
+        Me.BarManager1.Form = Me
+        Me.BarManager1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.FindBarEditItem, Me.ExportBarButtonItem, Me.DateBeginBarEditItem, Me.DateEndBarEditItem, Me.ClientOrderBarEditItem, Me.ReportBarButtonItem, Me.FilterBarSubItem, Me.AllRowBarCheckItem, Me.NotAgreeBarCheckItem, Me.WithAgreeBarCheckItem})
+        Me.BarManager1.MaxItemId = 18
+        Me.BarManager1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.FindRepositoryItemButtonEdit, Me.DateBeginRepositoryItemDateEdit, Me.DateEndRepositoryItemDateEdit, Me.ClientOrderRepositoryItemTextEdit})
+        '
+        'Bar1
+        '
+        Me.Bar1.BarName = "Главное меню"
+        Me.Bar1.DockCol = 0
+        Me.Bar1.DockRow = 0
+        Me.Bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Standalone
+        Me.Bar1.FloatLocation = New System.Drawing.Point(93, 143)
+        Me.Bar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.FindBarEditItem, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.DateBeginBarEditItem, "", True, True, True, 0, Nothing, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.DateEndBarEditItem, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.ClientOrderBarEditItem, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph), New DevExpress.XtraBars.LinkPersistInfo(Me.FilterBarSubItem, True), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.ReportBarButtonItem, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph), New DevExpress.XtraBars.LinkPersistInfo(Me.ExportBarButtonItem, True)})
+        Me.Bar1.OptionsBar.DrawBorder = False
+        Me.Bar1.OptionsBar.UseWholeRow = True
+        Me.Bar1.StandaloneBarDockControl = Me.StandaloneBarDockControl1
+        Me.Bar1.Text = "Главное меню"
+        '
+        'FindBarEditItem
+        '
+        Me.FindBarEditItem.Caption = "Поиск"
+        Me.FindBarEditItem.Edit = Me.FindRepositoryItemButtonEdit
+        Me.FindBarEditItem.EditWidth = 140
+        Me.FindBarEditItem.Id = 0
+        Me.FindBarEditItem.Name = "FindBarEditItem"
+        '
+        'FindRepositoryItemButtonEdit
+        '
+        Me.FindRepositoryItemButtonEdit.Appearance.BackColor = System.Drawing.SystemColors.Info
+        Me.FindRepositoryItemButtonEdit.Appearance.Font = New System.Drawing.Font("Arial", 10.8!)
+        Me.FindRepositoryItemButtonEdit.Appearance.Options.UseBackColor = True
+        Me.FindRepositoryItemButtonEdit.Appearance.Options.UseFont = True
+        Me.FindRepositoryItemButtonEdit.AutoHeight = False
+        ToolTipTitleItem14.Text = "Очистить"
+        ToolTipItem14.LeftIndent = 6
+        ToolTipItem14.Text = "Очистить поле поиска"
+        SuperToolTip14.Items.Add(ToolTipTitleItem14)
+        SuperToolTip14.Items.Add(ToolTipItem14)
+        Me.FindRepositoryItemButtonEdit.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Clear, "Очистить", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, "", Nothing, SuperToolTip14, True)})
+        Me.FindRepositoryItemButtonEdit.Name = "FindRepositoryItemButtonEdit"
+        '
+        'DateBeginBarEditItem
+        '
+        Me.DateBeginBarEditItem.Caption = "Дата начала"
+        Me.DateBeginBarEditItem.Edit = Me.DateBeginRepositoryItemDateEdit
+        Me.DateBeginBarEditItem.EditWidth = 120
+        Me.DateBeginBarEditItem.Id = 8
+        Me.DateBeginBarEditItem.Name = "DateBeginBarEditItem"
+        '
+        'DateBeginRepositoryItemDateEdit
+        '
+        Me.DateBeginRepositoryItemDateEdit.Appearance.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.DateBeginRepositoryItemDateEdit.Appearance.Options.UseFont = True
+        Me.DateBeginRepositoryItemDateEdit.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateBeginRepositoryItemDateEdit.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateBeginRepositoryItemDateEdit.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI
+        Me.DateBeginRepositoryItemDateEdit.Name = "DateBeginRepositoryItemDateEdit"
+        Me.DateBeginRepositoryItemDateEdit.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.[False]
+        '
+        'DateEndBarEditItem
+        '
+        Me.DateEndBarEditItem.Caption = "Дата конца"
+        Me.DateEndBarEditItem.Edit = Me.DateEndRepositoryItemDateEdit
+        Me.DateEndBarEditItem.EditWidth = 120
+        Me.DateEndBarEditItem.Id = 9
+        Me.DateEndBarEditItem.Name = "DateEndBarEditItem"
+        '
+        'DateEndRepositoryItemDateEdit
+        '
+        Me.DateEndRepositoryItemDateEdit.Appearance.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.DateEndRepositoryItemDateEdit.Appearance.Options.UseFont = True
+        Me.DateEndRepositoryItemDateEdit.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEndRepositoryItemDateEdit.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEndRepositoryItemDateEdit.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI
+        Me.DateEndRepositoryItemDateEdit.Name = "DateEndRepositoryItemDateEdit"
+        Me.DateEndRepositoryItemDateEdit.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.[False]
+        '
+        'ClientOrderBarEditItem
+        '
+        Me.ClientOrderBarEditItem.Caption = "Заказчик"
+        Me.ClientOrderBarEditItem.Edit = Me.ClientOrderRepositoryItemTextEdit
+        Me.ClientOrderBarEditItem.EditWidth = 140
+        Me.ClientOrderBarEditItem.Id = 10
+        Me.ClientOrderBarEditItem.Name = "ClientOrderBarEditItem"
+        ToolTipTitleItem15.Text = "Заказчик"
+        ToolTipItem15.LeftIndent = 6
+        ToolTipItem15.Text = "Наименование, ИНН, номер договора заказчика"
+        SuperToolTip15.Items.Add(ToolTipTitleItem15)
+        SuperToolTip15.Items.Add(ToolTipItem15)
+        Me.ClientOrderBarEditItem.SuperTip = SuperToolTip15
+        '
+        'ClientOrderRepositoryItemTextEdit
+        '
+        Me.ClientOrderRepositoryItemTextEdit.Appearance.Font = New System.Drawing.Font("Arial", 10.2!)
+        Me.ClientOrderRepositoryItemTextEdit.Appearance.Options.UseFont = True
+        Me.ClientOrderRepositoryItemTextEdit.AutoHeight = False
+        Me.ClientOrderRepositoryItemTextEdit.Name = "ClientOrderRepositoryItemTextEdit"
+        Me.ClientOrderRepositoryItemTextEdit.NullValuePrompt = "наименование, ИНН, здоговор"
+        Me.ClientOrderRepositoryItemTextEdit.NullValuePromptShowForEmptyValue = True
+        Me.ClientOrderRepositoryItemTextEdit.ShowNullValuePromptWhenFocused = True
+        '
+        'ReportBarButtonItem
+        '
+        Me.ReportBarButtonItem.Caption = "ОТЧЕТ"
+        Me.ReportBarButtonItem.Glyph = CType(resources.GetObject("ReportBarButtonItem.Glyph"), System.Drawing.Image)
+        Me.ReportBarButtonItem.Id = 11
+        Me.ReportBarButtonItem.Name = "ReportBarButtonItem"
+        ToolTipTitleItem12.Text = "Отчет"
+        ToolTipItem12.LeftIndent = 6
+        ToolTipItem12.Text = "Сформировать отчет"
+        SuperToolTip12.Items.Add(ToolTipTitleItem12)
+        SuperToolTip12.Items.Add(ToolTipItem12)
+        Me.ReportBarButtonItem.SuperTip = SuperToolTip12
+        '
+        'ExportBarButtonItem
+        '
+        Me.ExportBarButtonItem.Caption = "Экспорт"
+        Me.ExportBarButtonItem.Glyph = CType(resources.GetObject("ExportBarButtonItem.Glyph"), System.Drawing.Image)
+        Me.ExportBarButtonItem.Id = 5
+        Me.ExportBarButtonItem.Name = "ExportBarButtonItem"
+        ToolTipTitleItem16.Text = "Экспорт"
+        ToolTipItem16.LeftIndent = 6
+        ToolTipItem16.Text = "Экспорт списка в Microsoft Excel"
+        SuperToolTip16.Items.Add(ToolTipTitleItem16)
+        SuperToolTip16.Items.Add(ToolTipItem16)
+        Me.ExportBarButtonItem.SuperTip = SuperToolTip16
+        '
+        'barDockControlTop
+        '
+        Me.barDockControlTop.CausesValidation = False
+        Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
+        Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1300, 0)
+        '
+        'barDockControlBottom
+        '
+        Me.barDockControlBottom.CausesValidation = False
+        Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 500)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1300, 0)
+        '
+        'barDockControlLeft
+        '
+        Me.barDockControlLeft.CausesValidation = False
+        Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
+        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 500)
+        '
+        'barDockControlRight
+        '
+        Me.barDockControlRight.CausesValidation = False
+        Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
+        Me.barDockControlRight.Location = New System.Drawing.Point(1300, 0)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 500)
+        '
+        'FilterBarSubItem
+        '
+        Me.FilterBarSubItem.Caption = "Фильтры"
+        Me.FilterBarSubItem.Id = 14
+        Me.FilterBarSubItem.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.AllRowBarCheckItem), New DevExpress.XtraBars.LinkPersistInfo(Me.NotAgreeBarCheckItem), New DevExpress.XtraBars.LinkPersistInfo(Me.WithAgreeBarCheckItem)})
+        Me.FilterBarSubItem.MenuDrawMode = DevExpress.XtraBars.MenuDrawMode.LargeImagesTextDescription
+        Me.FilterBarSubItem.Name = "FilterBarSubItem"
+        '
+        'AllRowBarCheckItem
+        '
+        Me.AllRowBarCheckItem.Caption = "Все записи"
+        Me.AllRowBarCheckItem.Description = "Без фильтров"
+        Me.AllRowBarCheckItem.GroupIndex = 1
+        Me.AllRowBarCheckItem.Id = 15
+        Me.AllRowBarCheckItem.Name = "AllRowBarCheckItem"
+        '
+        'NotAgreeBarCheckItem
+        '
+        Me.NotAgreeBarCheckItem.Caption = "Без допсоглашений"
+        Me.NotAgreeBarCheckItem.Description = "Только работы без допсоглашений"
+        Me.NotAgreeBarCheckItem.GroupIndex = 1
+        Me.NotAgreeBarCheckItem.Id = 16
+        Me.NotAgreeBarCheckItem.Name = "NotAgreeBarCheckItem"
+        '
+        'WithAgreeBarCheckItem
+        '
+        Me.WithAgreeBarCheckItem.Caption = "С допсоглашениями"
+        Me.WithAgreeBarCheckItem.Description = "Только работы по допсоглашениям"
+        Me.WithAgreeBarCheckItem.GroupIndex = 1
+        Me.WithAgreeBarCheckItem.Id = 17
+        Me.WithAgreeBarCheckItem.Name = "WithAgreeBarCheckItem"
+        '
+        'ReportUserControl
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.LayoutControl1)
+        Me.Controls.Add(Me.barDockControlLeft)
+        Me.Controls.Add(Me.barDockControlRight)
+        Me.Controls.Add(Me.barDockControlBottom)
+        Me.Controls.Add(Me.barDockControlTop)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Name = "ReportUserControl"
+        Me.Size = New System.Drawing.Size(1300, 500)
+        CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LayoutControl1.ResumeLayout(False)
+        CType(Me.ReportGridControl, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ReportGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.WorkCountRepositoryItemProgressBar, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RootLayoutControlGroup, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FindRepositoryItemButtonEdit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateBeginRepositoryItemDateEdit.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateBeginRepositoryItemDateEdit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEndRepositoryItemDateEdit.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEndRepositoryItemDateEdit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ClientOrderRepositoryItemTextEdit, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents LayoutControl1 As DevExpress.XtraLayout.LayoutControl
+    Friend WithEvents RootLayoutControlGroup As DevExpress.XtraLayout.LayoutControlGroup
+    Friend WithEvents ReportGridControl As DevExpress.XtraGrid.GridControl
+    Friend WithEvents ReportGridView As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents WorkCountRepositoryItemProgressBar As DevExpress.XtraEditors.Repository.RepositoryItemProgressBar
+    Friend WithEvents LayoutControlItem1 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents BarManager1 As DevExpress.XtraBars.BarManager
+    Friend WithEvents Bar1 As DevExpress.XtraBars.Bar
+    Friend WithEvents barDockControlTop As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents barDockControlBottom As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents barDockControlLeft As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents barDockControlRight As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents StandaloneBarDockControl1 As DevExpress.XtraBars.StandaloneBarDockControl
+    Friend WithEvents LayoutControlItem3 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents FindBarEditItem As DevExpress.XtraBars.BarEditItem
+    Friend WithEvents FindRepositoryItemButtonEdit As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents ExportBarButtonItem As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents OrderNumGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents OrderDateGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ClientCaptionGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents IdGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ObjectCountGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GoodCountGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents ObjectPriceGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GoodPriceGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents PriceDifGridColumn As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents DateBeginBarEditItem As DevExpress.XtraBars.BarEditItem
+    Friend WithEvents DateBeginRepositoryItemDateEdit As DevExpress.XtraEditors.Repository.RepositoryItemDateEdit
+    Friend WithEvents DateEndBarEditItem As DevExpress.XtraBars.BarEditItem
+    Friend WithEvents DateEndRepositoryItemDateEdit As DevExpress.XtraEditors.Repository.RepositoryItemDateEdit
+    Friend WithEvents ClientOrderBarEditItem As DevExpress.XtraBars.BarEditItem
+    Friend WithEvents ClientOrderRepositoryItemTextEdit As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
+    Friend WithEvents ReportBarButtonItem As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents FilterBarSubItem As DevExpress.XtraBars.BarSubItem
+    Friend WithEvents AllRowBarCheckItem As DevExpress.XtraBars.BarCheckItem
+    Friend WithEvents NotAgreeBarCheckItem As DevExpress.XtraBars.BarCheckItem
+    Friend WithEvents WithAgreeBarCheckItem As DevExpress.XtraBars.BarCheckItem
+
+End Class

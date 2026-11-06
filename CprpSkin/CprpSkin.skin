@@ -1,0 +1,14 @@
+﻿<SkinItems version="1.0" application="SkinEditor" assembly="Cprp.Skin" class="" extranamespace="">
+  <Item>
+    <ItemName>A_Office 2016 Colorful</ItemName>
+    <TemplateName>Office 2016 Colorful</TemplateName>
+    <SkinMaskColor />
+    <SkinMaskColor2 />
+  </Item>
+  <Item>
+    <ItemName>A_Office 2013</ItemName>
+    <TemplateName>Office 2013</TemplateName>
+    <SkinMaskColor />
+    <SkinMaskColor2 />
+  </Item>
+</SkinItems>

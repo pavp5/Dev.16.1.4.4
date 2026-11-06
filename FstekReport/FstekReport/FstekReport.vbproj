@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5D46156-AC90-4208-B042-790FB607B4F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>FstekReport</RootNamespace>
+    <AssemblyName>FstekReport</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FstekReport.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FstekReport.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\report_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cprp.DxCommon">
+      <HintPath>..\..\Cprp\Cprp.DxCommon\bin\Release\Cprp.DxCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData">
+      <HintPath>..\..\Cprp\Cprp.DxData\bin\Release\Cprp.DxData.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Embargo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cprp\Cprp.DxData.Embargo\bin\Release\Cprp.DxData.Embargo.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Good, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cprp\Cprp.DxData.Good\bin\Release\Cprp.DxData.Good.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Handbook, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cprp\Cprp.DxData.Handbook\bin\Release\Cprp.DxData.Handbook.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Law, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cprp\Cprp.DxData.Law\bin\Release\Cprp.DxData.Law.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Member, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cprp\Cprp.DxData.Member\bin\Release\Cprp.DxData.Member.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Resource, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cprp\Cprp.DxData.Resource\bin\Release\Cprp.DxData.Resource.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.User">
+      <HintPath>..\..\Cprp\Cprp.DxData.User\bin\Release\Cprp.DxData.User.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Work">
+      <HintPath>..\..\Cprp\Cprp.DxData.Work\bin\Release\Cprp.DxData.Work.dll</HintPath>
+    </Reference>
+    <Reference Include="Cprp.DxData.Work.Excont">
+      <HintPath>..\..\Cprp\Cprp.DxData.Work.Excont\bin\Release\Cprp.DxData.Work.Excont.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DotNetZip, Version=1.13.8.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.13.8\lib\net40\DotNetZip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HandbookForm.Designer.vb">
+      <DependentUpon>HandbookForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HandbookForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandbookUserControl.Designer.vb">
+      <DependentUpon>HandbookUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HandbookUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="ReportUserControl.Designer.vb">
+      <DependentUpon>ReportUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SendForm.Designer.vb">
+      <DependentUpon>SendForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SendForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.vb">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkUserControl.designer.vb">
+      <DependentUpon>WorkUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WorkUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportDataTable0.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\CountryHandbookDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\DocDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\GoodDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\GoodLawDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\EndDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\GoodCategoryHandbookDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\LawCaptionHandbookDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\ReportDataSet.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\ReportDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\UserDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="{ Data }\WorkSummaryHandbookDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HandbookForm.resx">
+      <DependentUpon>HandbookForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandbookUserControl.resx">
+      <DependentUpon>HandbookUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportUserControl.resx">
+      <DependentUpon>ReportUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendForm.resx">
+      <DependentUpon>SendForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkUserControl.resx">
+      <DependentUpon>WorkUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Resources\report_template.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SvedOrg.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

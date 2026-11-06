@@ -16,7 +16,8 @@ Friend Class MainForm
     Private ReadOnly Property EXDBA_Connection As SqlConnection
         Get
             If _EXDBA_Connection Is Nothing Then
-                _EXDBA_Connection = New SqlConnection("Server=192.168.22.80;Database=EXDBA;Trusted_connection=Yes")
+                '_EXDBA_Connection = New SqlConnection("Server=192.168.22.80;Database=EXDBA;Trusted_connection=Yes")
+                _EXDBA_Connection = New SqlConnection("Server=192.168.22.80;Database=EXDBA;UID=excont_user;PWD=A123@123")
             End If
             Try
                 If _EXDBA_Connection.State <> ConnectionState.Open Then _EXDBA_Connection.Open()
@@ -41,7 +42,8 @@ Friend Class MainForm
     Private ReadOnly Property EXDB8_Connection As SqlConnection
         Get
             If _EXDB8_Connection Is Nothing Then
-                _EXDB8_Connection = New SqlConnection("Server=192.168.22.80;Database=EXDB8;Trusted_connection=Yes")
+                '_EXDB8_Connection = New SqlConnection("Server=192.168.22.80;Database=EXDB8;Trusted_connection=Yes")
+                _EXDB8_Connection = New SqlConnection("Server=192.168.22.80;Database=EXDB8;UID=excont_user;PWD=A123@123")
             End If
             Try
                 If _EXDB8_Connection.State <> ConnectionState.Open Then _EXDB8_Connection.Open()

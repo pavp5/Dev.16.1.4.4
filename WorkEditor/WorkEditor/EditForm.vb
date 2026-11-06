@@ -72,7 +72,7 @@ Friend Class EditForm
             Ds.Tables("Arow")(0)("doc1Data") = R.OpenXmlBytes
             Ds.AcceptChanges()
             Ds.WriteXml(workFilePath, XmlWriteMode.WriteSchema)
-            Cprp.DxCommon.Messages.ShowQuestion("Данные сохранены.")
+            Cprp.DxCommon.Messages.ShowInformation("Данные сохранены.")
         Catch ex As Exception
             Cprp.DxCommon.Messages.ShowError(String.Format("Ошибка сохранения данных:{0}{1}", vbCrLf, ex.Message))
         End Try
